@@ -4,7 +4,13 @@
 
 ?>
 <?php foreach($block->getItems()as $item): ?>
-
-<div class="template">
-    <h1><?=$block->getName()?></h1>
-</div>
+<p>
+<?php
+echo $item->getName(); 
+?>
+:
+<?php
+echo $item->getDescription();
+?>
+</p>
+<?php endforeach; ?>

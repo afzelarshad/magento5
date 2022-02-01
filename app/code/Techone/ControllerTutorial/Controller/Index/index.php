@@ -1,5 +1,5 @@
 <?php
-namespace Mastering\SampleModule\Controller\Index;
+namespace Techone\ControllerTutorial\Controller\Index;
 
 class index extends \Magento\Framework\App\Action\Action
 {
@@ -26,6 +26,6 @@ class index extends \Magento\Framework\App\Action\Action
      */
     public function execute()
     {
-        return $this->resultFactory->create(ResultFactory::TYPE_PAGE);
+        return $this->_pageFactory->create();
     }
 }

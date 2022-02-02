@@ -1,0 +1,12 @@
+<page xmlns:xsi="http:://www.w3.org\2001/XMLSchema-instance" layout="1colum"
+xsi:noNamespaceSchemaLocation="urn:magento:framework:view/Layout/etc/page_configuration.xsd">
+
+    <head>
+        <title>Result </title>
+    </head>
+    <body>
+        <<referenceContainer name="content">
+            <<block class="Techone\AjaxTutorial\Block\Index" name="result_result" as="" template="Techone_AjaxTutorial::result.phtml" />
+        </referenceContainer>
+    </body>
+</page>    

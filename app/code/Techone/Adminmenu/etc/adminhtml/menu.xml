@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Techone_Adminmenu::mainmenu" title="Techone" module="Techone_Adminmenu" sortOrder="51" resource="Techone_Adminmenu::mainmenu"/>
+
+        <add id="Techone_Adminmenu::menuone" title="Manage Posts" module="Techone_Adminmenu" sortOrder="51" action="techone_adminmenu/menuone" resource="Techone_Adminmenu::menuone"/>
+
+        <add id="Techone_Adminmenu::menutwo" title="Configuration" module="Techone_Adminmenu" sortOrder="51" action="adminhtml/system_conf/edit/section/mainmenu" resource="Techone_Adminmenu::menutwo"/>
+    </menu>
+</config>

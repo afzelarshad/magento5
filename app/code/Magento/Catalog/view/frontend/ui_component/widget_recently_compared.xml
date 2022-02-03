@@ -36,7 +36,7 @@
                 </item>
             </argument>
         </argument>
-        <dataProvider class="\Magento\Catalog\Ui\DataProvider\Product\Listing\DataProvider" name="recently_compared_datasource">
+        <dataProvider class="Magento\Catalog\Ui\DataProvider\Product\Listing\DataProvider" name="recently_compared_datasource">
             <settings>
                 <requestFieldName/>
                 <primaryFieldName/>
